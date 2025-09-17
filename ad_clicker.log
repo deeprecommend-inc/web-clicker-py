@@ -1,0 +1,54 @@
+2025-09-17 17:28:08,197 - INFO - ====== WebDriver manager ======
+2025-09-17 17:28:08,272 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 17:28:08,385 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 17:28:08,510 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-17 17:28:10,134 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:28:10,134 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-17 17:28:10,134 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:28:14,375 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:28:14,379 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:28:17,531 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:28:27,190 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:28:27,190 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:28:30,467 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:28:30,476 - ERROR - 広告リンク検出エラー: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x6155f3e7394a <unknown>
+#1 0x6155f38e88a0 <unknown>
+#2 0x6155f38cf95e <unknown>
+#3 0x6155f38f73e9 <unknown>
+#4 0x6155f39683cf <unknown>
+#5 0x6155f39855cc <unknown>
+#6 0x6155f395fe03 <unknown>
+#7 0x6155f392c968 <unknown>
+#8 0x6155f392d5e1 <unknown>
+#9 0x6155f3e37548 <unknown>
+#10 0x6155f3e3b272 <unknown>
+#11 0x6155f3e1e313 <unknown>
+#12 0x6155f3e3bdc5 <unknown>
+#13 0x6155f3e0349f <unknown>
+#14 0x6155f3e60158 <unknown>
+#15 0x6155f3e60332 <unknown>
+#16 0x6155f3e72a53 <unknown>
+#17 0x731254c94ac3 <unknown>
+
+2025-09-17 17:28:30,476 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:28:30,490 - ERROR - セッション実行エラー: Message: invalid session id
+Stacktrace:
+#0 0x6155f3e7394a <unknown>
+#1 0x6155f38e86f3 <unknown>
+#2 0x6155f392bb2f <unknown>
+#3 0x6155f395ff36 <unknown>
+#4 0x6155f395aa0e <unknown>
+#5 0x6155f3959b52 <unknown>
+#6 0x6155f38b0d05 <unknown>
+#7 0x6155f3e37548 <unknown>
+#8 0x6155f3e3b272 <unknown>
+#9 0x6155f3e1e313 <unknown>
+#10 0x6155f3e3bdc5 <unknown>
+#11 0x6155f3e0349f <unknown>
+#12 0x6155f38aeb7b <unknown>
+#13 0x731254c29d90 <unknown>
+

@@ -1,0 +1,13 @@
+{
+  "start_time": "2025-09-17T17:28:08.197082",
+  "target_url": "https://kimagureokazu.com/stripchat-free-50coin-japan/",
+  "clicked_links": [],
+  "errors": [
+    {
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x6155f3e7394a <unknown>\n#1 0x6155f38e86f3 <unknown>\n#2 0x6155f392bb2f <unknown>\n#3 0x6155f395ff36 <unknown>\n#4 0x6155f395aa0e <unknown>\n#5 0x6155f3959b52 <unknown>\n#6 0x6155f38b0d05 <unknown>\n#7 0x6155f3e37548 <unknown>\n#8 0x6155f3e3b272 <unknown>\n#9 0x6155f3e1e313 <unknown>\n#10 0x6155f3e3bdc5 <unknown>\n#11 0x6155f3e0349f <unknown>\n#12 0x6155f38aeb7b <unknown>\n#13 0x731254c29d90 <unknown>\n",
+      "timestamp": "2025-09-17T17:28:30.490146"
+    }
+  ],
+  "total_clicks": 0,
+  "successful_clicks": 0
+}

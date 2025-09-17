@@ -1,0 +1,141 @@
+[
+  {
+    "test_name": "クリック精度テスト",
+    "status": "partial",
+    "start_time": "2025-09-17T17:26:23.409405",
+    "end_time": "2025-09-17T17:26:41.746243",
+    "duration": 18.336838,
+    "details": {
+      "accuracy": "33.33%",
+      "success_count": 2,
+      "total_clicks": 6,
+      "clicks": [
+        {
+          "url": "https://www.example.com",
+          "link": "https://www.iana.org/domains/example",
+          "clickable": true,
+          "success": true
+        },
+        {
+          "url": "https://www.wikipedia.org",
+          "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5cbe0ef4e94a <unknown>\n#1 0x5cbe0e9c38a0 <unknown>\n#2 0x5cbe0e998c90 <unknown>\n#3 0x5cbe0ea431c8 <unknown>\n#4 0x5cbe0ea605cc <unknown>\n#5 0x5cbe0ea3ae03 <unknown>\n#6 0x5cbe0ea07968 <unknown>\n#7 0x5cbe0ea085e1 <unknown>\n#8 0x5cbe0ef12548 <unknown>\n#9 0x5cbe0ef16272 <unknown>\n#10 0x5cbe0eef9313 <unknown>\n#11 0x5cbe0ef16dc5 <unknown>\n#12 0x5cbe0eede49f <unknown>\n#13 0x5cbe0ef3b158 <unknown>\n#14 0x5cbe0ef3b332 <unknown>\n#15 0x5cbe0ef4da53 <unknown>\n#16 0x7c9054694ac3 <unknown>\n"
+        },
+        {
+          "url": "https://www.wikipedia.org",
+          "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5cbe0ef4e94a <unknown>\n#1 0x5cbe0e9c38a0 <unknown>\n#2 0x5cbe0e998c90 <unknown>\n#3 0x5cbe0ea431c8 <unknown>\n#4 0x5cbe0ea605cc <unknown>\n#5 0x5cbe0ea3ae03 <unknown>\n#6 0x5cbe0ea07968 <unknown>\n#7 0x5cbe0ea085e1 <unknown>\n#8 0x5cbe0ef12548 <unknown>\n#9 0x5cbe0ef16272 <unknown>\n#10 0x5cbe0eef9313 <unknown>\n#11 0x5cbe0ef16dc5 <unknown>\n#12 0x5cbe0eede49f <unknown>\n#13 0x5cbe0ef3b158 <unknown>\n#14 0x5cbe0ef3b332 <unknown>\n#15 0x5cbe0ef4da53 <unknown>\n#16 0x7c9054694ac3 <unknown>\n"
+        },
+        {
+          "url": "https://www.wikipedia.org",
+          "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5cbe0ef4e94a <unknown>\n#1 0x5cbe0e9c38a0 <unknown>\n#2 0x5cbe0e998c90 <unknown>\n#3 0x5cbe0ea431c8 <unknown>\n#4 0x5cbe0ea605cc <unknown>\n#5 0x5cbe0ea3ae03 <unknown>\n#6 0x5cbe0ea07968 <unknown>\n#7 0x5cbe0ea085e1 <unknown>\n#8 0x5cbe0ef12548 <unknown>\n#9 0x5cbe0ef16272 <unknown>\n#10 0x5cbe0eef9313 <unknown>\n#11 0x5cbe0ef16dc5 <unknown>\n#12 0x5cbe0eede49f <unknown>\n#13 0x5cbe0ef3b158 <unknown>\n#14 0x5cbe0ef3b332 <unknown>\n#15 0x5cbe0ef4da53 <unknown>\n#16 0x7c9054694ac3 <unknown>\n"
+        },
+        {
+          "url": "https://www.wikipedia.org",
+          "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5cbe0ef4e94a <unknown>\n#1 0x5cbe0e9c38a0 <unknown>\n#2 0x5cbe0e998c90 <unknown>\n#3 0x5cbe0ea431c8 <unknown>\n#4 0x5cbe0ea605cc <unknown>\n#5 0x5cbe0ea3ae03 <unknown>\n#6 0x5cbe0ea07968 <unknown>\n#7 0x5cbe0ea085e1 <unknown>\n#8 0x5cbe0ef12548 <unknown>\n#9 0x5cbe0ef16272 <unknown>\n#10 0x5cbe0eef9313 <unknown>\n#11 0x5cbe0ef16dc5 <unknown>\n#12 0x5cbe0eede49f <unknown>\n#13 0x5cbe0ef3b158 <unknown>\n#14 0x5cbe0ef3b332 <unknown>\n#15 0x5cbe0ef4da53 <unknown>\n#16 0x7c9054694ac3 <unknown>\n"
+        },
+        {
+          "url": "https://www.wikipedia.org",
+          "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5cbe0ef4e94a <unknown>\n#1 0x5cbe0e9c38a0 <unknown>\n#2 0x5cbe0e998c90 <unknown>\n#3 0x5cbe0ea431c8 <unknown>\n#4 0x5cbe0ea605cc <unknown>\n#5 0x5cbe0ea3ae03 <unknown>\n#6 0x5cbe0ea07968 <unknown>\n#7 0x5cbe0ea085e1 <unknown>\n#8 0x5cbe0ef12548 <unknown>\n#9 0x5cbe0ef16272 <unknown>\n#10 0x5cbe0eef9313 <unknown>\n#11 0x5cbe0ef16dc5 <unknown>\n#12 0x5cbe0eede49f <unknown>\n#13 0x5cbe0ef3b158 <unknown>\n#14 0x5cbe0ef3b332 <unknown>\n#15 0x5cbe0ef4da53 <unknown>\n#16 0x7c9054694ac3 <unknown>\n"
+        }
+      ]
+    },
+    "error_message": null,
+    "retry_count": 0
+  },
+  {
+    "test_name": "スケーラビリティテスト（3並列）",
+    "status": "success",
+    "start_time": "2025-09-17T17:26:43.847470",
+    "end_time": "2025-09-17T17:26:54.127130",
+    "duration": 10.27966,
+    "details": {
+      "parallel_instances": 3,
+      "successful_instances": 3,
+      "total_clicks": 3,
+      "average_duration_per_instance": "4.53秒",
+      "clicks_per_second": 0.29183844601864267,
+      "instance_results": [
+        {
+          "instance_id": 1,
+          "success": true,
+          "clicks_made": 1,
+          "duration": 1.8152437210083008
+        },
+        {
+          "instance_id": 2,
+          "success": true,
+          "clicks_made": 1,
+          "duration": 4.232154130935669
+        },
+        {
+          "instance_id": 0,
+          "success": true,
+          "clicks_made": 1,
+          "duration": 7.543772220611572
+        }
+      ]
+    },
+    "error_message": null,
+    "retry_count": 0
+  },
+  {
+    "test_name": "エラーリカバリテスト",
+    "status": "failure",
+    "start_time": "2025-09-17T17:26:56.129431",
+    "end_time": "2025-09-17T17:27:03.476952",
+    "duration": 7.347521,
+    "details": {
+      "recovery_attempts": []
+    },
+    "error_message": "Message: invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: not connected to DevTools\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5f181531794a <unknown>\n#1 0x5f1814d8c8a0 <unknown>\n#2 0x5f1814d7395e <unknown>\n#3 0x5f1814d9b3e9 <unknown>\n#4 0x5f1814e0c3cf <unknown>\n#5 0x5f1814e295cc <unknown>\n#6 0x5f1814e03e03 <unknown>\n#7 0x5f1814dd0968 <unknown>\n#8 0x5f1814dd15e1 <unknown>\n#9 0x5f18152db548 <unknown>\n#10 0x5f18152df272 <unknown>\n#11 0x5f18152c2313 <unknown>\n#12 0x5f18152dfdc5 <unknown>\n#13 0x5f18152a749f <unknown>\n#14 0x5f1815304158 <unknown>\n#15 0x5f1815304332 <unknown>\n#16 0x5f1815316a53 <unknown>\n#17 0x72824b294ac3 <unknown>\n",
+    "retry_count": 0
+  },
+  {
+    "test_name": "フォーム送信テスト",
+    "status": "partial",
+    "start_time": "2025-09-17T17:27:05.500110",
+    "end_time": "2025-09-17T17:27:11.131799",
+    "duration": 5.631689,
+    "details": {
+      "form_data": {
+        "input[name=\"company\"]": "DeepRecommend株式会社",
+        "input[name=\"name\"]": "杉本迅",
+        "input[name=\"tel\"]": "070-1734-7502",
+        "input[name=\"email\"]": "tatoonashi0203@icloud.com",
+        "textarea[name=\"message\"]": "テスト送信です",
+        "checkbox:input[name=\"agree\"]": "check"
+      },
+      "form_filled": false,
+      "submit_success": false,
+      "capability": "GPT-5エージェント相当の機能実装"
+    },
+    "error_message": null,
+    "retry_count": 0
+  },
+  {
+    "test_name": "最大アクセス数テスト",
+    "status": "success",
+    "start_time": "2025-09-17T17:27:16.086541",
+    "end_time": "2025-09-17T17:27:22.274941",
+    "duration": 6.1884,
+    "details": {
+      "test_duration": "0.001時間",
+      "actual_access_count": 3,
+      "errors": 0,
+      "access_per_second": 0.48477797168896647,
+      "estimated_daily_access": 41884,
+      "estimated_daily_with_parallel": 418840
+    },
+    "error_message": null,
+    "retry_count": 0
+  },
+  {
+    "test_name": "VPN互換性テスト",
+    "status": "failure",
+    "start_time": "2025-09-17T17:27:24.344020",
+    "end_time": "2025-09-17T17:27:30.031662",
+    "duration": 5.687642,
+    "details": {},
+    "error_message": "Message: invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: not connected to DevTools\n  (Session info: chrome=140.0.7339.127)\nStacktrace:\n#0 0x5cfa34d2994a <unknown>\n#1 0x5cfa3479e8a0 <unknown>\n#2 0x5cfa3478595e <unknown>\n#3 0x5cfa347ad3e9 <unknown>\n#4 0x5cfa3481e3cf <unknown>\n#5 0x5cfa3483b5cc <unknown>\n#6 0x5cfa34815e03 <unknown>\n#7 0x5cfa347e2968 <unknown>\n#8 0x5cfa347e35e1 <unknown>\n#9 0x5cfa34ced548 <unknown>\n#10 0x5cfa34cf1272 <unknown>\n#11 0x5cfa34cd4313 <unknown>\n#12 0x5cfa34cf1dc5 <unknown>\n#13 0x5cfa34cb949f <unknown>\n#14 0x5cfa34d16158 <unknown>\n#15 0x5cfa34d16332 <unknown>\n#16 0x5cfa34d28a53 <unknown>\n#17 0x722e31c94ac3 <unknown>\n",
+    "retry_count": 0
+  }
+]
