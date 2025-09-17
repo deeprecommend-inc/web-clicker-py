@@ -52,3 +52,205 @@ Stacktrace:
 #12 0x6155f38aeb7b <unknown>
 #13 0x731254c29d90 <unknown>
 
+2025-09-17 17:32:21,969 - INFO - ====== WebDriver manager ======
+2025-09-17 17:32:22,096 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 17:32:22,192 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 17:32:22,472 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-17 17:32:23,897 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:32:23,897 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-17 17:32:23,897 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:32:27,703 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:32:27,704 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:32:33,736 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:32:40,001 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:32:40,001 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:32:46,052 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:32:52,255 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:32:52,255 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:32:58,328 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:33:07,743 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:33:07,743 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:33:14,221 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:33:20,939 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:33:20,939 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:33:27,025 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:33:33,252 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:33:33,252 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:33:42,344 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:33:48,536 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:33:48,536 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:33:54,595 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:34:00,936 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:34:00,937 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:34:07,035 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:34:13,416 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:34:13,417 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:34:22,454 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:34:28,803 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:34:28,803 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:34:34,857 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:34:41,364 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:34:41,365 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:34:47,504 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:34:56,930 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:34:56,930 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:35:03,081 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:35:09,444 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:35:09,444 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:35:15,497 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:35:21,914 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:35:21,915 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:35:30,922 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:35:37,120 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:35:37,120 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:35:43,223 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:35:49,451 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:35:49,451 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:35:55,538 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:36:04,784 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:36:04,784 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:36:10,871 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:36:17,351 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:36:17,352 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:36:23,427 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:36:29,674 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:36:29,674 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:36:38,678 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:36:45,182 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:36:45,182 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:36:51,313 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:36:57,617 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:36:57,617 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:37:03,708 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:37:09,954 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:37:09,954 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:37:18,982 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:37:25,190 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:37:25,190 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:37:31,246 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:37:37,788 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:37:37,788 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:37:43,906 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:37:53,097 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:37:53,097 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:37:59,170 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:38:05,661 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:38:05,661 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:38:11,728 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:38:18,074 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:38:18,074 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:38:27,125 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:38:33,404 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:38:33,404 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:38:39,611 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:38:46,364 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:38:46,364 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:38:52,558 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:39:01,856 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:39:01,857 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:39:06,247 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:39:12,635 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:39:12,636 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:39:18,850 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:39:25,288 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:39:25,289 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:39:31,378 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:39:40,260 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:39:40,260 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:39:44,579 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:39:44,584 - ERROR - 広告リンク検出エラー: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x639c55ee594a <unknown>
+#1 0x639c5595a8a0 <unknown>
+#2 0x639c5592fc90 <unknown>
+#3 0x639c559da1c8 <unknown>
+#4 0x639c559f75cc <unknown>
+#5 0x639c559d1e03 <unknown>
+#6 0x639c5599e968 <unknown>
+#7 0x639c5599f5e1 <unknown>
+#8 0x639c55ea9548 <unknown>
+#9 0x639c55ead272 <unknown>
+#10 0x639c55e90313 <unknown>
+#11 0x639c55eaddc5 <unknown>
+#12 0x639c55e7549f <unknown>
+#13 0x639c55ed2158 <unknown>
+#14 0x639c55ed2332 <unknown>
+#15 0x639c55ee4a53 <unknown>
+#16 0x78ffd8894ac3 <unknown>
+
+2025-09-17 17:39:44,584 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:39:44,589 - ERROR - セッション実行エラー: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x639c55ee594a <unknown>
+#1 0x639c5595a8a0 <unknown>
+#2 0x639c5592fc90 <unknown>
+#3 0x639c559da1c8 <unknown>
+#4 0x639c559f75cc <unknown>
+#5 0x639c559d1e03 <unknown>
+#6 0x639c5599e968 <unknown>
+#7 0x639c5599f5e1 <unknown>
+#8 0x639c55ea9548 <unknown>
+#9 0x639c55ead272 <unknown>
+#10 0x639c55e90313 <unknown>
+#11 0x639c55eaddc5 <unknown>
+#12 0x639c55e7549f <unknown>
+#13 0x639c55ed2158 <unknown>
+#14 0x639c55ed2332 <unknown>
+#15 0x639c55ee4a53 <unknown>
+#16 0x78ffd8894ac3 <unknown>
+
+2025-09-17 17:46:55,485 - INFO - ====== WebDriver manager ======
+2025-09-17 17:46:55,608 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 17:46:55,701 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 17:46:55,761 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-17 17:46:57,614 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:46:57,614 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-17 17:46:57,614 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:47:02,837 - INFO - 検出された広告リンク数: 0
+2025-09-17 17:47:02,837 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:47:05,992 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-17 17:47:05,997 - ERROR - 広告リンク検出エラー: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x636b09ec194a <unknown>
+#1 0x636b099368a0 <unknown>
+#2 0x636b0991d95e <unknown>
+#3 0x636b099453e9 <unknown>
+#4 0x636b099b63cf <unknown>
+#5 0x636b099d35cc <unknown>
+#6 0x636b099ade03 <unknown>
+#7 0x636b0997a968 <unknown>
+#8 0x636b0997b5e1 <unknown>
+#9 0x636b09e85548 <unknown>
+#10 0x636b09e89272 <unknown>
+#11 0x636b09e6c313 <unknown>
+#12 0x636b09e89dc5 <unknown>
+#13 0x636b09e5149f <unknown>
+#14 0x636b09eae158 <unknown>
+#15 0x636b09eae332 <unknown>
+#16 0x636b09ec0a53 <unknown>
+#17 0x743fbd294ac3 <unknown>
+
+2025-09-17 17:47:05,997 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-17 17:47:06,006 - ERROR - セッション実行エラー: Message: invalid session id
+Stacktrace:
+#0 0x636b09ec194a <unknown>
+#1 0x636b099366f3 <unknown>
+#2 0x636b09979b2f <unknown>
+#3 0x636b099adf36 <unknown>
+#4 0x636b099a8a0e <unknown>
+#5 0x636b099a7b52 <unknown>
+#6 0x636b098fed05 <unknown>
+#7 0x636b09e85548 <unknown>
+#8 0x636b09e89272 <unknown>
+#9 0x636b09e6c313 <unknown>
+#10 0x636b09e89dc5 <unknown>
+#11 0x636b09e5149f <unknown>
+#12 0x636b098fcb7b <unknown>
+#13 0x743fbd229d90 <unknown>
+
