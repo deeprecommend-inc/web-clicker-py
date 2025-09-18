@@ -1,0 +1,87 @@
+{
+  "total_ads": 9,
+  "successful_clicks": 2,
+  "failed_clicks": 7,
+  "success_rate": 22.22222222222222,
+  "test_results": [
+    {
+      "test_id": "ins_0",
+      "ad_type": "ins_adsbygoogle",
+      "description": "AdSense ins要素 #0",
+      "success": true,
+      "method": "ActionChains移動クリック",
+      "alert_detected": false,
+      "new_tab_opened": false,
+      "timestamp": "2025-09-18T19:01:24.429914"
+    },
+    {
+      "test_id": "iframe_0",
+      "ad_type": "iframe_ad",
+      "description": "iframe広告: test-ad-iframe",
+      "success": true,
+      "method": "iframe内ActionChains",
+      "alert_detected": false,
+      "new_tab_opened": false,
+      "timestamp": "2025-09-18T19:01:32.672440"
+    },
+    {
+      "test_id": "container_0",
+      "ad_type": "div_container",
+      "description": "広告コンテナ: google_ads_div_1",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:42.364345"
+    },
+    {
+      "test_id": "container_1",
+      "ad_type": "div_container",
+      "description": "広告コンテナ: div-gpt-ad-test-300x250",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:43.640419"
+    },
+    {
+      "test_id": "banner_0",
+      "ad_type": "banner_ad",
+      "description": "バナー広告 #0",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:45.352220"
+    },
+    {
+      "test_id": "banner_1",
+      "ad_type": "banner_ad",
+      "description": "バナー広告 #1",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:47.319740"
+    },
+    {
+      "test_id": "banner_2",
+      "ad_type": "banner_ad",
+      "description": "バナー広告 #2",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:48.661956"
+    },
+    {
+      "test_id": "link_0",
+      "ad_type": "link_ad",
+      "description": "リンク広告 #0",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:50.476777"
+    },
+    {
+      "test_id": "button_0",
+      "ad_type": "button_ad",
+      "description": "ボタン広告 #0",
+      "success": false,
+      "error": "Message: invalid session id\nStacktrace:\n#0 0x5bbc1f648cba <unknown>\n#1 0x5bbc1f0bd733 <unknown>\n#2 0x5bbc1f100b6f <unknown>\n#3 0x5bbc1f134f76 <unknown>\n#4 0x5bbc1f12fa4e <unknown>\n#5 0x5bbc1f12eb92 <unknown>\n#6 0x5bbc1f085d45 <unknown>\n#7 0x5bbc1f60c8b8 <unknown>\n#8 0x5bbc1f6105e2 <unknown>\n#9 0x5bbc1f5f3683 <unknown>\n#10 0x5bbc1f611135 <unknown>\n#11 0x5bbc1f5d880f <unknown>\n#12 0x5bbc1f083bbb <unknown>\n#13 0x7a448a829d90 <unknown>\n",
+      "timestamp": "2025-09-18T19:01:51.865536"
+    }
+  ],
+  "duration": 38.315815,
+  "start_time": "2025-09-18T19:01:14.811237",
+  "end_time": "2025-09-18T19:01:53.127052"
+}

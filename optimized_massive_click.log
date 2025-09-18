@@ -1,0 +1,43 @@
+2025-09-18 14:59:45,335 - INFO - [MainThread] - 🚀 OptimizedMassiveClicker初期化完了
+2025-09-18 14:59:45,335 - INFO - [MainThread] -    目標クリック数: 1,000
+2025-09-18 14:59:45,335 - INFO - [MainThread] -    最大ワーカー数: 4
+2025-09-18 14:59:45,335 - INFO - [MainThread] -    CPU数: 4, メモリ: 15.5GB
+2025-09-18 14:59:45,335 - INFO - [MainThread] - 🚀 超大規模クリック開始: 目標 1,000 クリック
+2025-09-18 14:59:45,336 - INFO - [MainThread] - 🧵 スレッド実行: 4 ワーカー開始
+2025-09-18 14:59:45,336 - INFO - [ThreadPoolExecutor-0_0] - ⚡ Worker-0: 超高速セッション開始 (目標: 250クリック)
+2025-09-18 14:59:45,336 - INFO - [ThreadPoolExecutor-0_1] - ⚡ Worker-1: 超高速セッション開始 (目標: 250クリック)
+2025-09-18 14:59:45,337 - INFO - [ThreadPoolExecutor-0_0] - ====== WebDriver manager ======
+2025-09-18 14:59:45,337 - INFO - [ThreadPoolExecutor-0_1] - ====== WebDriver manager ======
+2025-09-18 14:59:45,338 - INFO - [ThreadPoolExecutor-0_2] - ⚡ Worker-2: 超高速セッション開始 (目標: 250クリック)
+2025-09-18 14:59:45,340 - INFO - [ThreadPoolExecutor-0_2] - ====== WebDriver manager ======
+2025-09-18 14:59:45,342 - INFO - [ThreadPoolExecutor-0_3] - ⚡ Worker-3: 超高速セッション開始 (目標: 250クリック)
+2025-09-18 14:59:45,342 - INFO - [ThreadPoolExecutor-0_3] - ====== WebDriver manager ======
+2025-09-18 14:59:45,503 - INFO - [ThreadPoolExecutor-0_2] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,539 - INFO - [ThreadPoolExecutor-0_3] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,555 - INFO - [ThreadPoolExecutor-0_0] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,561 - INFO - [ThreadPoolExecutor-0_1] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,592 - INFO - [ThreadPoolExecutor-0_2] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,624 - INFO - [ThreadPoolExecutor-0_3] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,641 - INFO - [ThreadPoolExecutor-0_1] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,650 - INFO - [ThreadPoolExecutor-0_0] - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:59:45,658 - INFO - [ThreadPoolExecutor-0_2] - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:59:45,717 - INFO - [ThreadPoolExecutor-0_3] - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:59:45,769 - INFO - [ThreadPoolExecutor-0_1] - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:59:45,821 - INFO - [ThreadPoolExecutor-0_0] - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:59:50,338 - INFO - [Thread-1 (monitor_progress)] - 📊 システム: CPU 84.2%, メモリ 32.9%
+2025-09-18 14:59:58,938 - INFO - [Thread-1 (monitor_progress)] - 📊 システム: CPU 67.2%, メモリ 33.0%
+2025-09-18 15:00:03,939 - INFO - [Thread-1 (monitor_progress)] - 📊 システム: CPU 74.2%, メモリ 33.0%
+2025-09-18 15:00:06,209 - INFO - [ThreadPoolExecutor-0_2] - ✅ Worker-2: 超高速セッション完了 (250成功, 12 clicks/sec)
+2025-09-18 15:00:06,415 - INFO - [ThreadPoolExecutor-0_3] - ✅ Worker-3: 超高速セッション完了 (250成功, 12 clicks/sec)
+2025-09-18 15:00:07,191 - INFO - [ThreadPoolExecutor-0_0] - ✅ Worker-0: 超高速セッション完了 (250成功, 11 clicks/sec)
+2025-09-18 15:00:07,365 - INFO - [ThreadPoolExecutor-0_1] - ✅ Worker-1: 超高速セッション完了 (250成功, 11 clicks/sec)
+2025-09-18 15:00:08,431 - INFO - [MainThread] - ================================================================================
+2025-09-18 15:00:08,431 - INFO - [MainThread] - 🎯 超大規模クリック完了
+2025-09-18 15:00:08,432 - INFO - [MainThread] - 📊 目標クリック数: 1,000
+2025-09-18 15:00:08,432 - INFO - [MainThread] - ✅ 成功クリック数: 1,000
+2025-09-18 15:00:08,432 - INFO - [MainThread] - ❌ 失敗クリック数: 0
+2025-09-18 15:00:08,432 - INFO - [MainThread] - 📈 成功率: 100.0%
+2025-09-18 15:00:08,432 - INFO - [MainThread] - ⚡ 平均速度: 43 clicks/sec
+2025-09-18 15:00:08,432 - INFO - [MainThread] - ⏱️ 実行時間: 23.1秒
+2025-09-18 15:00:08,432 - INFO - [MainThread] - 👥 使用ワーカー数: 4
+2025-09-18 15:00:08,432 - INFO - [MainThread] - ================================================================================

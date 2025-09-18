@@ -1,0 +1,276 @@
+2025-09-18 10:46:40,870 - INFO - ====== WebDriver manager ======
+2025-09-18 10:46:41,317 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:46:41,380 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:46:41,446 - INFO - There is no [linux64] chromedriver "140.0.7339.185" for browser google-chrome "140.0.7339" in cache
+2025-09-18 10:46:41,446 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:46:41,591 - INFO - WebDriver version 140.0.7339.185 selected
+2025-09-18 10:46:41,596 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/linux64/chromedriver-linux64.zip
+2025-09-18 10:46:41,597 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/linux64/chromedriver-linux64.zip
+2025-09-18 10:46:41,667 - INFO - Driver downloading response is 200
+2025-09-18 10:46:43,139 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:46:43,537 - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185]
+2025-09-18 10:46:43,553 - ERROR - 実行エラー: Message: 'chromedriver' executable may have wrong permissions.
+
+2025-09-18 10:46:53,954 - INFO - ====== WebDriver manager ======
+2025-09-18 10:46:54,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:46:54,148 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:46:54,190 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 10:46:56,961 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 10:47:02,608 - INFO - ページスクロールで広告を表示
+2025-09-18 10:47:04,653 - ERROR - 実行エラー: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x5eda21ed9cba <unknown>
+#1 0x5eda2194e8e0 <unknown>
+#2 0x5eda2193599e <unknown>
+#3 0x5eda2195d429 <unknown>
+#4 0x5eda219ce40f <unknown>
+#5 0x5eda219eb60c <unknown>
+#6 0x5eda219c5e43 <unknown>
+#7 0x5eda219929a8 <unknown>
+#8 0x5eda21993621 <unknown>
+#9 0x5eda21e9d8b8 <unknown>
+#10 0x5eda21ea15e2 <unknown>
+#11 0x5eda21e84683 <unknown>
+#12 0x5eda21ea2135 <unknown>
+#13 0x5eda21e6980f <unknown>
+#14 0x5eda21ec64c8 <unknown>
+#15 0x5eda21ec66a2 <unknown>
+#16 0x5eda21ed8dc3 <unknown>
+#17 0x7396a5694ac3 <unknown>
+
+2025-09-18 10:50:01,648 - INFO - ====== WebDriver manager ======
+2025-09-18 10:50:01,757 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:50:01,865 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:50:01,937 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 10:50:03,191 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 10:50:09,486 - INFO - ページスクロールで広告を表示
+2025-09-18 10:50:11,522 - WARNING - スクロール中のエラー: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x57518eed8cba <unknown>
+#1 0x57518e94d8e0 <unknown>
+#2 0x57518e93499e <unknown>
+#3 0x57518e95c429 <unknown>
+#4 0x57518e9cd40f <unknown>
+#5 0x57518e9ea60c <unknown>
+#6 0x57518e9c4e43 <unknown>
+#7 0x57518e9919a8 <unknown>
+#8 0x57518e992621 <unknown>
+#9 0x57518ee9c8b8 <unknown>
+#10 0x57518eea05e2 <unknown>
+#11 0x57518ee83683 <unknown>
+#12 0x57518eea1135 <unknown>
+#13 0x57518ee6880f <unknown>
+#14 0x57518eec54c8 <unknown>
+#15 0x57518eec56a2 <unknown>
+#16 0x57518eed7dc3 <unknown>
+#17 0x7dbee4294ac3 <unknown>
+
+2025-09-18 10:50:11,529 - WARNING - スクロール中のエラー: Message: invalid session id
+Stacktrace:
+#0 0x57518eed8cba <unknown>
+#1 0x57518e94d733 <unknown>
+#2 0x57518e990b6f <unknown>
+#3 0x57518e9c4f76 <unknown>
+#4 0x57518e9bfa4e <unknown>
+#5 0x57518e9beb92 <unknown>
+#6 0x57518e915d45 <unknown>
+#7 0x57518ee9c8b8 <unknown>
+#8 0x57518eea05e2 <unknown>
+#9 0x57518ee83683 <unknown>
+#10 0x57518eea1135 <unknown>
+#11 0x57518ee6880f <unknown>
+#12 0x57518e913bbb <unknown>
+#13 0x7dbee4229d90 <unknown>
+
+2025-09-18 10:50:11,531 - WARNING - スクロール中のエラー: Message: invalid session id
+Stacktrace:
+#0 0x57518eed8cba <unknown>
+#1 0x57518e94d733 <unknown>
+#2 0x57518e990b6f <unknown>
+#3 0x57518e9c4f76 <unknown>
+#4 0x57518e9bfa4e <unknown>
+#5 0x57518e9beb92 <unknown>
+#6 0x57518e915d45 <unknown>
+#7 0x57518ee9c8b8 <unknown>
+#8 0x57518eea05e2 <unknown>
+#9 0x57518ee83683 <unknown>
+#10 0x57518eea1135 <unknown>
+#11 0x57518ee6880f <unknown>
+#12 0x57518e913bbb <unknown>
+#13 0x7dbee4229d90 <unknown>
+
+2025-09-18 10:50:11,533 - ERROR - 実行エラー: Message: invalid session id
+Stacktrace:
+#0 0x57518eed8cba <unknown>
+#1 0x57518e94d733 <unknown>
+#2 0x57518e990b6f <unknown>
+#3 0x57518e9c4f76 <unknown>
+#4 0x57518e9bfa4e <unknown>
+#5 0x57518e9beb92 <unknown>
+#6 0x57518e915d45 <unknown>
+#7 0x57518ee9c8b8 <unknown>
+#8 0x57518eea05e2 <unknown>
+#9 0x57518ee83683 <unknown>
+#10 0x57518eea1135 <unknown>
+#11 0x57518ee6880f <unknown>
+#12 0x57518e913bbb <unknown>
+#13 0x7dbee4229d90 <unknown>
+
+2025-09-18 14:27:42,287 - INFO - ====== WebDriver manager ======
+2025-09-18 14:27:42,408 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:27:42,759 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:27:42,924 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:27:42,924 - INFO - ChromeDriver path: /root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/chromedriver
+2025-09-18 14:27:45,034 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:27:50,902 - INFO - ページスクロールで広告を表示
+2025-09-18 14:27:50,906 - WARNING - スクロール中のWebDriverエラー: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x5911bef4ccba <unknown>
+#1 0x5911be9c18e0 <unknown>
+#2 0x5911be9a899e <unknown>
+#3 0x5911be9d0429 <unknown>
+#4 0x5911bea4140f <unknown>
+#5 0x5911bea5e60c <unknown>
+#6 0x5911bea38e43 <unknown>
+#7 0x5911bea059a8 <unknown>
+#8 0x5911bea06621 <unknown>
+#9 0x5911bef108b8 <unknown>
+#10 0x5911bef145e2 <unknown>
+#11 0x5911beef7683 <unknown>
+#12 0x5911bef15135 <unknown>
+#13 0x5911beedc80f <unknown>
+#14 0x5911bef394c8 <unknown>
+#15 0x5911bef396a2 <unknown>
+#16 0x5911bef4bdc3 <unknown>
+#17 0x7769da494ac3 <unknown>
+
+2025-09-18 14:27:50,906 - ERROR - ブラウザセッションが切断されました。再起動が必要です。
+2025-09-18 14:27:50,906 - ERROR - 実行エラー: Message: Browser session lost during scrolling
+
+2025-09-18 14:28:30,968 - INFO - ====== WebDriver manager ======
+2025-09-18 14:28:31,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:28:32,590 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:28:32,994 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:28:32,994 - INFO - ChromeDriver path: /root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/chromedriver
+2025-09-18 14:28:34,974 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:28:43,581 - INFO - ページスクロールで広告を表示
+2025-09-18 14:28:43,602 - INFO - ページ高さ: 513px
+2025-09-18 14:28:43,620 - INFO - スクロール 1: すでに十分にスクロール済み
+2025-09-18 14:28:45,648 - INFO - スクロール完了、トップに戻りました
+2025-09-18 14:28:45,649 - INFO - AdSense広告の検出開始
+2025-09-18 14:28:45,700 - INFO - 広告検出対象ページ: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:28:45,700 - INFO - ページタイトル: Privacy error
+2025-09-18 14:28:45,734 - INFO - 検出されたins.adsbygoogle要素: 0個
+2025-09-18 14:28:45,734 - WARNING - ins.adsbygoogle要素が見つかりません
+2025-09-18 14:28:45,756 - INFO - 検出されたiframe総数: 0個
+2025-09-18 14:28:45,805 - INFO - 検出された広告コンテナ: 0個
+2025-09-18 14:28:45,839 - INFO - 検出されたGPT広告スロット: 0個
+2025-09-18 14:28:45,839 - INFO - 標準的なAdSense要素が見つからないため、一般的な広告要素を検索
+2025-09-18 14:28:46,021 - INFO - 合計 0 個の広告要素を検出
+2025-09-18 14:28:46,021 - WARNING - WARNING - 広告がみつかりませんでした
+2025-09-18 14:28:46,022 - WARNING - AdSense広告が見つかりません
+2025-09-18 14:28:46,022 - INFO - ============================================================
+2025-09-18 14:28:46,023 - INFO - AdSenseクリック完了
+2025-09-18 14:28:46,023 - INFO - 検出された広告: 0
+2025-09-18 14:28:46,023 - INFO - 成功クリック: 0
+2025-09-18 14:28:46,023 - INFO - 失敗クリック: 0
+2025-09-18 14:28:46,023 - INFO - 実行時間: 15.1秒
+2025-09-18 14:28:46,023 - INFO - ============================================================
+2025-09-18 14:29:21,612 - INFO - ====== WebDriver manager ======
+2025-09-18 14:29:21,689 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:29:21,735 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:29:21,782 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:29:21,783 - INFO - ChromeDriver path: /root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/chromedriver
+2025-09-18 14:29:22,655 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:29:28,265 - INFO - ページスクロールで広告を表示
+2025-09-18 14:29:28,468 - INFO - ページ高さ: 513px
+2025-09-18 14:29:28,482 - INFO - スクロール 1: すでに十分にスクロール済み
+2025-09-18 14:29:30,508 - INFO - スクロール完了、トップに戻りました
+2025-09-18 14:29:30,508 - INFO - AdSense広告の検出開始
+2025-09-18 14:29:30,528 - INFO - 広告検出対象ページ: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:29:30,528 - INFO - ページタイトル: Access Notification
+2025-09-18 14:29:30,552 - INFO - 検出されたins.adsbygoogle要素: 0個
+2025-09-18 14:29:30,552 - WARNING - ins.adsbygoogle要素が見つかりません
+2025-09-18 14:29:30,589 - INFO - 検出されたiframe総数: 0個
+2025-09-18 14:29:30,638 - INFO - 検出された広告コンテナ: 0個
+2025-09-18 14:29:30,678 - INFO - 検出されたGPT広告スロット: 0個
+2025-09-18 14:29:30,679 - INFO - 標準的なAdSense要素が見つからないため、一般的な広告要素を検索
+2025-09-18 14:29:31,060 - INFO - 合計 0 個の広告要素を検出
+2025-09-18 14:29:31,060 - WARNING - WARNING - 広告がみつかりませんでした
+2025-09-18 14:29:31,060 - WARNING - AdSense広告が見つかりません
+2025-09-18 14:29:31,078 - INFO - ============================================================
+2025-09-18 14:29:31,079 - INFO - AdSenseクリック完了
+2025-09-18 14:29:31,079 - INFO - 検出された広告: 0
+2025-09-18 14:29:31,079 - INFO - 成功クリック: 0
+2025-09-18 14:29:31,079 - INFO - 失敗クリック: 0
+2025-09-18 14:29:31,079 - INFO - 実行時間: 9.5秒
+2025-09-18 14:29:31,079 - INFO - ============================================================
+2025-09-18 14:30:05,513 - INFO - ====== WebDriver manager ======
+2025-09-18 14:30:05,695 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:30:05,797 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 14:30:05,907 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 14:30:05,907 - INFO - ChromeDriver path: /root/.wdm/drivers/chromedriver/linux64/140.0.7339.185/chromedriver-linux64/chromedriver
+2025-09-18 14:30:06,762 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:30:12,450 - INFO - ページスクロールで広告を表示
+2025-09-18 14:30:12,477 - INFO - ページ高さ: 513px
+2025-09-18 14:30:12,488 - INFO - スクロール 1: すでに十分にスクロール済み
+2025-09-18 14:30:14,500 - INFO - スクロール完了、トップに戻りました
+2025-09-18 14:30:14,500 - INFO - AdSense広告の検出開始
+2025-09-18 14:30:14,515 - INFO - 広告検出対象ページ: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 14:30:14,515 - INFO - ページタイトル: Access Notification
+2025-09-18 14:30:14,521 - INFO - ページソース（最初の1000文字）: <html><head>
+<script type="text/javascript">
+var cato_variables = { page_type: 7, host_ip: "150.95.59.39", error: "Corporate Internet policy violation", categories: "Porn", unique_id: "3353728721", cmpl_hdrname: "X-Cato-ComplReq-Hdr", cmpl_hdrtext: "cato-miscato_15055132665405888209_pt_7_cato-suffix",  };
+</script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Access Notification</title>
+  <script>
+    const pageTypes = {
+  BLOCK: "block",
+  PROMPT: "prompt",
+};
+
+const colorStrip = {
+  block: "#ef5350",
+  prompt: "#ffb300",
+};
+
+function onLoad() {
+  const pageType = cato_variables.prompt ? pageTypes.PROMPT : pageTypes.BLOCK;
+  setFont(pageType);
+  setBgColor(pageType);
+  setColorStrip(pageType);
+  removeUnused(pageType);
+  setUrl();
+  setReasonData();
+  if (
+      cato_variables.cmpl_hdrname &&
+      cato_variables.cmpl_hdrtext &&
+      cato_variables.categories
+  ) {
+    const categories = cato_variables.categories.split(";")
+2025-09-18 14:30:14,521 - WARNING - アクセス制限またはボット検出の可能性: Access Notification
+2025-09-18 14:30:14,717 - INFO - 検出されたins.adsbygoogle要素: 0個
+2025-09-18 14:30:14,717 - WARNING - ins.adsbygoogle要素が見つかりません
+2025-09-18 14:30:14,791 - INFO - 検出されたiframe総数: 0個
+2025-09-18 14:30:14,816 - INFO - 検出された広告コンテナ: 0個
+2025-09-18 14:30:14,875 - INFO - 検出されたGPT広告スロット: 0個
+2025-09-18 14:30:14,875 - INFO - 標準的なAdSense要素が見つからないため、一般的な広告要素を検索
+2025-09-18 14:30:15,123 - INFO - 合計 0 個の広告要素を検出
+2025-09-18 14:30:15,123 - WARNING - WARNING - 広告がみつかりませんでした
+2025-09-18 14:30:15,123 - WARNING - AdSense広告が見つかりません
+2025-09-18 14:30:15,124 - INFO - ============================================================
+2025-09-18 14:30:15,124 - INFO - AdSenseクリック完了
+2025-09-18 14:30:15,124 - INFO - 検出された広告: 0
+2025-09-18 14:30:15,124 - INFO - 成功クリック: 0
+2025-09-18 14:30:15,124 - INFO - 失敗クリック: 0
+2025-09-18 14:30:15,124 - INFO - 実行時間: 9.6秒
+2025-09-18 14:30:15,124 - INFO - ============================================================

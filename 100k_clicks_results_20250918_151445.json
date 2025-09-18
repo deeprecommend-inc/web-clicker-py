@@ -1,0 +1,12 @@
+{
+  "target_clicks": 100000,
+  "successful_clicks": 99996,
+  "failed_clicks": 0,
+  "total_clicks": 99996,
+  "success_rate": 100.0,
+  "total_duration": 777.8941009044647,
+  "clicks_per_second": 128.54706043371934,
+  "workers_used": 12,
+  "start_time": "2025-09-18T15:01:48.099412",
+  "end_time": "2025-09-18T15:14:45.993513"
+}

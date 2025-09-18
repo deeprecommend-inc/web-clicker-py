@@ -1,0 +1,58 @@
+{
+  "target_clicks": 1000,
+  "total_clicks": 1000,
+  "successful_clicks": 1000,
+  "failed_clicks": 0,
+  "success_rate": 100.0,
+  "total_duration": 23.095667,
+  "clicks_per_second": 43.298164976140335,
+  "workers_used": 4,
+  "start_time": "2025-09-18T14:59:45.335923",
+  "end_time": "2025-09-18T15:00:08.431590",
+  "worker_results": [
+    {
+      "worker_id": 2,
+      "click_count": 250,
+      "success_count": 250,
+      "fail_count": 0,
+      "start_time": "2025-09-18T14:59:45.338214",
+      "end_time": "2025-09-18T15:00:06.209779",
+      "duration": 20.871565,
+      "ads_detected": 200,
+      "error_messages": []
+    },
+    {
+      "worker_id": 3,
+      "click_count": 250,
+      "success_count": 250,
+      "fail_count": 0,
+      "start_time": "2025-09-18T14:59:45.342440",
+      "end_time": "2025-09-18T15:00:06.415153",
+      "duration": 21.072713,
+      "ads_detected": 200,
+      "error_messages": []
+    },
+    {
+      "worker_id": 0,
+      "click_count": 250,
+      "success_count": 250,
+      "fail_count": 0,
+      "start_time": "2025-09-18T14:59:45.336594",
+      "end_time": "2025-09-18T15:00:07.191442",
+      "duration": 21.854848,
+      "ads_detected": 200,
+      "error_messages": []
+    },
+    {
+      "worker_id": 1,
+      "click_count": 250,
+      "success_count": 250,
+      "fail_count": 0,
+      "start_time": "2025-09-18T14:59:45.336950",
+      "end_time": "2025-09-18T15:00:07.365043",
+      "duration": 22.028093,
+      "ads_detected": 200,
+      "error_messages": []
+    }
+  ]
+}
