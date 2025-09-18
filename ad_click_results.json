@@ -1,11 +1,11 @@
 {
-  "start_time": "2025-09-17T17:46:55.485166",
+  "start_time": "2025-09-18T00:19:56.627223",
   "target_url": "https://kimagureokazu.com/stripchat-free-50coin-japan/",
   "clicked_links": [],
   "errors": [
     {
-      "error": "Message: invalid session id\nStacktrace:\n#0 0x636b09ec194a <unknown>\n#1 0x636b099366f3 <unknown>\n#2 0x636b09979b2f <unknown>\n#3 0x636b099adf36 <unknown>\n#4 0x636b099a8a0e <unknown>\n#5 0x636b099a7b52 <unknown>\n#6 0x636b098fed05 <unknown>\n#7 0x636b09e85548 <unknown>\n#8 0x636b09e89272 <unknown>\n#9 0x636b09e6c313 <unknown>\n#10 0x636b09e89dc5 <unknown>\n#11 0x636b09e5149f <unknown>\n#12 0x636b098fcb7b <unknown>\n#13 0x743fbd229d90 <unknown>\n",
-      "timestamp": "2025-09-17T17:47:06.006418"
+      "error": "Message: 'chromedriver' executable may have wrong permissions.\n",
+      "timestamp": "2025-09-18T00:20:13.445414"
     }
   ],
   "total_clicks": 0,

@@ -254,3 +254,183 @@ Stacktrace:
 #12 0x636b098fcb7b <unknown>
 #13 0x743fbd229d90 <unknown>
 
+2025-09-18 00:19:56,627 - INFO - ====== WebDriver manager ======
+2025-09-18 00:19:56,807 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 00:19:56,967 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 00:19:57,039 - INFO - There is no [linux64] chromedriver "140.0.7339.82" for browser google-chrome "140.0.7339" in cache
+2025-09-18 00:19:57,039 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 00:19:57,350 - INFO - WebDriver version 140.0.7339.82 selected
+2025-09-18 00:19:57,353 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/linux64/chromedriver-linux64.zip
+2025-09-18 00:19:57,353 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/linux64/chromedriver-linux64.zip
+2025-09-18 00:19:57,467 - INFO - Driver downloading response is 200
+2025-09-18 00:20:12,273 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 00:20:13,444 - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82]
+2025-09-18 00:20:13,445 - ERROR - セッション実行エラー: Message: 'chromedriver' executable may have wrong permissions.
+
+2025-09-18 01:25:16,565 - INFO - ====== WebDriver manager ======
+2025-09-18 01:25:16,607 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:25:16,681 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:25:16,758 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 01:25:18,212 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:25:18,212 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-18 01:25:18,212 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:25:29,462 - INFO - 検出された広告リンク数: 7
+2025-09-18 01:25:29,463 - INFO - クリック実行: [画像リンク] -> https://kimagureokazu.com/
+2025-09-18 01:25:35,063 - INFO - 新しいタブを閉じました
+2025-09-18 01:25:35,063 - INFO - クリック成功: [画像リンク]
+2025-09-18 01:25:35,063 - INFO - 待機: 6.47秒
+2025-09-18 01:25:41,541 - INFO - 進捗: 1/15クリック, 残り時間: 577秒
+2025-09-18 01:25:41,541 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:25:47,225 - INFO - 検出された広告リンク数: 6
+2025-09-18 01:25:47,225 - INFO - クリック実行: [画像リンク] -> https://feedly.com/i/discover/sources/search/feed/https%3A%2F%2Fkimagureokazu.com
+2025-09-18 01:25:52,834 - INFO - 新しいタブを閉じました
+2025-09-18 01:25:52,834 - INFO - クリック成功: [画像リンク]
+2025-09-18 01:25:52,835 - INFO - 待機: 3.32秒
+2025-09-18 01:25:56,155 - INFO - 進捗: 2/15クリック, 残り時間: 562秒
+2025-09-18 01:25:56,156 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:26:02,732 - INFO - 検出された広告リンク数: 5
+2025-09-18 01:26:02,732 - INFO - クリック実行: [画像リンク] -> https://kimagureokazu.com/feed/
+2025-09-18 01:26:09,008 - INFO - 新しいタブを閉じました
+2025-09-18 01:26:09,008 - INFO - クリック成功: [画像リンク]
+2025-09-18 01:26:09,008 - INFO - 待機: 7.77秒
+2025-09-18 01:26:16,782 - INFO - 進捗: 3/15クリック, 残り時間: 541秒
+2025-09-18 01:26:16,782 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:26:22,138 - INFO - 検出された広告リンク数: 4
+2025-09-18 01:26:22,138 - INFO - クリック実行: ストリップチャット会員登録(無料) -> https://go.rmhfrtnd.com/?userId=a4855161cbf3d09b95a2f8d800cf42649d91932581eab42235e6405efd170e0e
+2025-09-18 01:26:27,094 - INFO - 新しいタブを閉じました
+2025-09-18 01:26:27,094 - INFO - クリック成功: ストリップチャット会員登録(無料)
+2025-09-18 01:26:27,094 - INFO - 待機: 5.76秒
+2025-09-18 01:26:34,374 - INFO - 進捗: 4/15クリック, 残り時間: 524秒
+2025-09-18 01:26:34,375 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:26:39,713 - INFO - 検出された広告リンク数: 3
+2025-09-18 01:26:39,713 - INFO - クリック実行: ストリップチャットの遊び方・メリデメ・評判(口コミ)を紹介【初心者おすすめ】 -> https://ero-cha.com/recommend/stripchat_forbeginer/
+2025-09-18 01:26:46,519 - INFO - 新しいタブを閉じました
+2025-09-18 01:26:46,519 - INFO - クリック成功: ストリップチャットの遊び方・メリデメ・評判(口コミ)を紹介【初心者おすすめ】
+2025-09-18 01:26:46,519 - INFO - 待機: 7.98秒
+2025-09-18 01:26:54,506 - INFO - 進捗: 5/15クリック, 残り時間: 504秒
+2025-09-18 01:26:54,507 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:26:59,660 - INFO - 検出された広告リンク数: 2
+2025-09-18 01:26:59,660 - INFO - クリック実行: 【STRIPCHAT】チケットチャットをタダで見る"裏ワザ"とは？ -> https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:27:07,509 - INFO - 新しいタブを閉じました
+2025-09-18 01:27:07,509 - INFO - クリック成功: 【STRIPCHAT】チケットチャットをタダで見る"裏ワザ"とは？
+2025-09-18 01:27:07,509 - INFO - 待機: 3.43秒
+2025-09-18 01:27:10,945 - INFO - 進捗: 6/15クリック, 残り時間: 487秒
+2025-09-18 01:27:10,945 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:27:15,479 - INFO - 検出された広告リンク数: 1
+2025-09-18 01:27:15,479 - INFO - クリック実行: 無修正動画の閲覧　違法性に対する弁護士及び警察庁の見解は -> https://www.news-postseven.com/archives/20150329_311623.html?DETAIL
+2025-09-18 01:27:20,655 - INFO - 新しいタブを閉じました
+2025-09-18 01:27:20,655 - INFO - クリック成功: 無修正動画の閲覧　違法性に対する弁護士及び警察庁の見解は
+2025-09-18 01:27:20,655 - INFO - 待機: 6.57秒
+2025-09-18 01:27:27,232 - INFO - 進捗: 7/15クリック, 残り時間: 471秒
+2025-09-18 01:27:27,232 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:27:31,898 - INFO - 検出された広告リンク数: 0
+2025-09-18 01:27:31,898 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-18 01:27:36,108 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:27:41,981 - INFO - 検出された広告リンク数: 0
+2025-09-18 01:27:41,981 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-18 01:27:46,200 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:27:50,631 - INFO - 検出された広告リンク数: 0
+2025-09-18 01:27:50,631 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-18 01:27:55,612 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:28:00,074 - INFO - 検出された広告リンク数: 0
+2025-09-18 01:28:00,075 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-18 01:28:04,189 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:28:08,636 - INFO - 検出された広告リンク数: 0
+2025-09-18 01:28:08,636 - INFO - 広告リンクが見つかりません。ページを再読み込みします。
+2025-09-18 01:28:14,223 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:28:17,212 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/6798cf24781b5e6544df2743e6f3b942
+2025-09-18 01:28:17,213 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efd6dd6a8c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/6798cf24781b5e6544df2743e6f3b942
+2025-09-18 01:28:17,213 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efd6dd683a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/6798cf24781b5e6544df2743e6f3b942
+2025-09-18 01:33:47,309 - INFO - ====== WebDriver manager ======
+2025-09-18 01:33:47,352 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:33:47,469 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:33:47,539 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 01:33:48,471 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:33:48,471 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-18 01:33:48,471 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:34:01,302 - INFO - 検出された広告リンク数: 7
+2025-09-18 01:34:01,302 - INFO - クリック実行: [画像リンク] -> https://kimagureokazu.com/feed/
+2025-09-18 01:34:07,012 - INFO - 新しいタブを閉じました
+2025-09-18 01:34:07,013 - INFO - クリック成功: [画像リンク]
+2025-09-18 01:34:07,013 - INFO - 待機: 4.83秒
+2025-09-18 01:34:11,847 - INFO - 進捗: 1/15クリック, 残り時間: 577秒
+2025-09-18 01:34:11,847 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:34:17,130 - INFO - 検出された広告リンク数: 6
+2025-09-18 01:34:17,130 - INFO - クリック実行: [画像リンク] -> https://kimagureokazu.com/
+2025-09-18 01:35:46,653 - INFO - ====== WebDriver manager ======
+2025-09-18 01:35:46,693 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:35:46,762 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:35:46,830 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 01:35:47,717 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:35:47,717 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-18 01:35:47,717 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:35:57,182 - INFO - 検出された広告リンク数: 7
+2025-09-18 01:35:57,182 - INFO - クリック実行: [画像リンク] -> https://kimagureokazu.com/
+2025-09-18 01:36:02,405 - INFO - 新しいタブを閉じました
+2025-09-18 01:36:02,405 - INFO - クリック成功: [画像リンク]
+2025-09-18 01:36:02,405 - INFO - 待機: 4.58秒
+2025-09-18 01:36:06,988 - INFO - 進捗: 1/15クリック, 残り時間: 581秒
+2025-09-18 01:36:06,988 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:36:15,818 - INFO - 検出された広告リンク数: 6
+2025-09-18 01:36:15,819 - INFO - クリック実行: [画像リンク] -> https://feedly.com/i/discover/sources/search/feed/https%3A%2F%2Fkimagureokazu.com
+2025-09-18 01:36:20,965 - INFO - 新しいタブを閉じました
+2025-09-18 01:36:20,965 - INFO - クリック成功: [画像リンク]
+2025-09-18 01:36:20,966 - INFO - 待機: 6.54秒
+2025-09-18 01:36:27,512 - INFO - 進捗: 2/15クリック, 残り時間: 560秒
+2025-09-18 01:36:27,512 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:36:29,452 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/540a97ae8afbda6e062bf383ce25f0d0
+2025-09-18 01:36:29,452 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff90a076410>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/540a97ae8afbda6e062bf383ce25f0d0
+2025-09-18 01:36:29,452 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff90a074610>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/540a97ae8afbda6e062bf383ce25f0d0
+2025-09-18 01:40:00,696 - INFO - ====== WebDriver manager ======
+2025-09-18 01:40:00,736 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:40:00,804 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 01:40:00,883 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 01:40:01,769 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:40:01,769 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-18 01:40:01,770 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 01:40:13,337 - INFO - 検出されたiframe数: 8
+2025-09-18 01:40:14,108 - INFO - 検出された広告リンク数: 14
+2025-09-18 01:40:14,108 - INFO - クリック実行: [iframe内画像] (iframe_image) -> iframe_4_img
+2025-09-18 01:40:18,017 - INFO - クリック成功: [iframe内画像]
+2025-09-18 01:40:18,017 - INFO - 待機: 7.63秒
+2025-09-18 01:40:25,656 - INFO - 進捗: 1/15クリック, 残り時間: 576秒
+2025-09-18 01:40:25,656 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:29:43,444 - INFO - ====== WebDriver manager ======
+2025-09-18 09:29:43,622 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:29:47,511 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:29:47,602 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-09-18 09:29:49,855 - INFO - 広告クリックセッション開始: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:29:49,856 - INFO - 最大クリック数: 15, セッション時間: 600秒
+2025-09-18 09:29:49,856 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:30:01,573 - INFO - 検出されたiframe数: 8
+2025-09-18 09:30:02,370 - INFO - 検出された広告リンク数: 14
+2025-09-18 09:30:02,370 - INFO - クリック実行: 【STRIPCHAT】チケットチャットをタダで見る"裏ワザ"とは？ (image) -> https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:30:09,295 - INFO - クリック成功: 【STRIPCHAT】チケットチャットをタダで見る"裏ワザ"とは？
+2025-09-18 09:30:09,295 - INFO - 待機: 4.62秒
+2025-09-18 09:30:13,917 - INFO - 進捗: 1/15クリック, 残り時間: 576秒
+2025-09-18 09:30:13,917 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:30:21,463 - INFO - 検出されたiframe数: 8
+2025-09-18 09:30:22,178 - INFO - 検出された広告リンク数: 13
+2025-09-18 09:30:22,178 - INFO - クリック実行: [iframe内リンク] (iframe_link) -> https://clear-tv.com/ppc300/9362004-362-103-220641?
+2025-09-18 09:30:27,175 - INFO - 新しいタブを閉じました
+2025-09-18 09:30:27,175 - INFO - クリック成功: [iframe内リンク]
+2025-09-18 09:30:27,175 - INFO - 待機: 5.43秒
+2025-09-18 09:30:32,612 - INFO - 進捗: 2/15クリック, 残り時間: 557秒
+2025-09-18 09:30:32,612 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:30:37,052 - INFO - 検出されたiframe数: 8
+2025-09-18 09:30:37,780 - INFO - 検出された広告リンク数: 13
+2025-09-18 09:30:37,780 - INFO - クリック実行: [画像リンク] (text) -> https://kimagureokazu.com/feed/
+2025-09-18 09:30:43,424 - INFO - 新しいタブを閉じました
+2025-09-18 09:30:43,424 - INFO - クリック成功: [画像リンク]
+2025-09-18 09:30:43,424 - INFO - 待機: 4.26秒
+2025-09-18 09:30:47,687 - INFO - 進捗: 3/15クリック, 残り時間: 542秒
+2025-09-18 09:30:47,688 - INFO - ページアクセス: https://kimagureokazu.com/stripchat-free-50coin-japan/
+2025-09-18 09:30:52,434 - INFO - 検出されたiframe数: 8
+2025-09-18 09:30:53,165 - INFO - 検出された広告リンク数: 12
+2025-09-18 09:30:53,165 - INFO - クリック実行: [画像リンク] (text) -> https://kimagureokazu.com/
+2025-09-18 09:30:58,617 - INFO - 新しいタブを閉じました
+2025-09-18 09:30:58,617 - INFO - クリック成功: [画像リンク]
+2025-09-18 09:30:58,617 - INFO - 待機: 4.72秒
+2025-09-18 09:31:01,455 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/021b956101490c4774d43e6748078ce3
+2025-09-18 09:31:01,455 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6c5fef9d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/021b956101490c4774d43e6748078ce3
+2025-09-18 09:31:01,455 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6c5fecfd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/021b956101490c4774d43e6748078ce3

@@ -93,29 +93,141 @@ class AdClicker:
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         
         return driver
-    
+
+    def find_iframe_ads(self) -> List[Dict]:
+        """
+        iframe内の広告を検出してクリック可能なリンクを返す
+
+        Returns:
+            iframe内の広告リンクのリスト
+        """
+        iframe_ads = []
+        try:
+            # すべてのiframeを取得
+            iframes = self.driver.find_elements(By.TAG_NAME, 'iframe')
+            logger.info(f"検出されたiframe数: {len(iframes)}")
+
+            for idx, iframe in enumerate(iframes):
+                try:
+                    # iframe属性をチェック（広告関連のiframeを特定）
+                    iframe_src = iframe.get_attribute('src') or ''
+                    iframe_id = iframe.get_attribute('id') or ''
+                    iframe_class = iframe.get_attribute('class') or ''
+
+                    # 広告関連のiframeかチェック
+                    is_ad_iframe = any([
+                        'ad' in iframe_src.lower(),
+                        'ad' in iframe_id.lower(),
+                        'ad' in iframe_class.lower(),
+                        'banner' in iframe_src.lower(),
+                        'banner' in iframe_id.lower(),
+                        'banner' in iframe_class.lower(),
+                        'shinobi' in iframe_src.lower(),
+                        'admax' in iframe_src.lower(),
+                        'doubleclick' in iframe_src.lower(),
+                        'googlesyndication' in iframe_src.lower()
+                    ])
+
+                    if is_ad_iframe and iframe.is_displayed():
+                        # iframeが表示されている場合、クリック可能な要素として追加
+                        iframe_ads.append({
+                            'element': iframe,
+                            'href': iframe_src or f'iframe_{idx}',
+                            'text': f'[iframe広告 {idx}]',
+                            'type': 'iframe',
+                            'selector': f'iframe[{idx}]',
+                            'iframe_index': idx
+                        })
+                        logger.info(f"広告iframe検出: {iframe_src[:50] if iframe_src else f'iframe_{idx}'}")
+
+                    # iframeの中身も検索
+                    try:
+                        # iframeに切り替え
+                        self.driver.switch_to.frame(iframe)
+
+                        # iframe内のリンクを検索
+                        links = self.driver.find_elements(By.TAG_NAME, 'a')
+                        images = self.driver.find_elements(By.TAG_NAME, 'img')
+
+                        # クリック可能な要素を検索
+                        for link in links:
+                            try:
+                                href = link.get_attribute('href')
+                                if href and link.is_displayed():
+                                    iframe_ads.append({
+                                        'element': link,
+                                        'href': href,
+                                        'text': link.text.strip() or '[iframe内リンク]',
+                                        'type': 'iframe_link',
+                                        'selector': f'iframe[{idx}] a',
+                                        'iframe_index': idx
+                                    })
+                            except:
+                                pass
+
+                        # クリック可能な画像を検索
+                        for img in images:
+                            try:
+                                if img.is_displayed():
+                                    # 親要素がリンクでない画像もクリック対象に
+                                    parent = img.find_element(By.XPATH, '..')
+                                    if parent.tag_name != 'a':
+                                        iframe_ads.append({
+                                            'element': img,
+                                            'href': f'iframe_{idx}_img',
+                                            'text': '[iframe内画像]',
+                                            'type': 'iframe_image',
+                                            'selector': f'iframe[{idx}] img',
+                                            'iframe_index': idx
+                                        })
+                            except:
+                                pass
+
+                    except Exception as e:
+                        logger.debug(f"iframe {idx} の中身を読み取れません: {e}")
+                    finally:
+                        # メインフレームに戻る
+                        self.driver.switch_to.default_content()
+
+                except Exception as e:
+                    logger.debug(f"iframe {idx} の処理中にエラー: {e}")
+                    # エラーが発生してもメインフレームに戻る
+                    self.driver.switch_to.default_content()
+
+        except Exception as e:
+            logger.error(f"iframe広告検出エラー: {e}")
+            # エラーが発生してもメインフレームに戻る
+            self.driver.switch_to.default_content()
+
+        return iframe_ads
+
     def find_ad_links(self, target_url: str) -> List[Dict]:
         """
-        指定URLの広告リンクを検出
-        
+        指定URLの広告リンクを検出（iframe内も含む）
+
         Args:
             target_url: 対象URL
-            
+
         Returns:
             広告リンクのリスト
         """
         try:
             logger.info(f"ページアクセス: {target_url}")
             self.driver.get(target_url)
-            
+
             # ページ読み込み待機
             time.sleep(3)
-            
+
             # 広告リンクの候補を取得
             ad_links = []
+
+            # まずiframe内の広告を検索
+            ad_links.extend(self.find_iframe_ads())
             
             # 一般的な広告リンクのセレクタ
             ad_selectors = [
+                'a[href*="chikayo-dsp.shinobi.jp/admax"]',  # 特定の広告配信システム
+                'a[href*="shinobi.jp/admax"]',              # Shinobi AdMax広告
                 'a[href*="stripchat"]',              # Stripchat関連リンク
                 'a[href*="chaturbate"]',             # Chaturbate関連リンク
                 'a[href*="cam"]',                    # カメラサイト関連
@@ -180,11 +292,11 @@ class AdClicker:
     
     def click_ad_link(self, link_info: Dict) -> bool:
         """
-        広告リンクをクリック
-        
+        広告リンクをクリック（iframe要素も処理）
+
         Args:
             link_info: リンク情報
-            
+
         Returns:
             クリック成功かどうか
         """
@@ -192,31 +304,81 @@ class AdClicker:
             element = link_info['element']
             href = link_info['href']
             text = link_info['text']
+            link_type = link_info.get('type', 'link')
+
+            logger.info(f"クリック実行: {text} ({link_type}) -> {href}")
+
+            # iframe内の要素の場合、先にiframeに切り替える
+            if link_type in ['iframe_link', 'iframe_image']:
+                iframe_index = link_info.get('iframe_index')
+                if iframe_index is not None:
+                    iframes = self.driver.find_elements(By.TAG_NAME, 'iframe')
+                    if iframe_index < len(iframes):
+                        self.driver.switch_to.frame(iframes[iframe_index])
+                        # iframe内で要素を再取得
+                        if link_type == 'iframe_link':
+                            elements = self.driver.find_elements(By.TAG_NAME, 'a')
+                            for elem in elements:
+                                if elem.get_attribute('href') == href:
+                                    element = elem
+                                    break
+                        elif link_type == 'iframe_image':
+                            elements = self.driver.find_elements(By.TAG_NAME, 'img')
+                            if elements:
+                                element = elements[0]  # 最初の画像を使用
             
-            logger.info(f"クリック実行: {text} -> {href}")
-            
-            # 要素まで自然にスクロール
-            self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element)
-            time.sleep(random.uniform(1, 2))
-            
-            # 要素が見える状態かチェック
-            if not element.is_displayed():
-                logger.warning(f"要素が見えません: {text}")
-                return False
-            
-            # 自然なマウス動作でクリック
-            try:
-                ActionChains(self.driver).move_to_element(element).pause(0.5).click().perform()
-            except ElementClickInterceptedException:
-                # JavaScriptでクリック
-                self.driver.execute_script("arguments[0].click();", element)
-            
+            # iframe自体をクリックする場合
+            if link_type == 'iframe':
+                # iframeまでスクロール
+                self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element)
+                time.sleep(random.uniform(1, 2))
+
+                # iframeの位置とサイズを取得
+                location = element.location
+                size = element.size
+
+                # iframe内の中央をクリック
+                try:
+                    # iframeに切り替えてから内部をクリック
+                    self.driver.switch_to.frame(element)
+                    # iframe内のbodyまたは最初のクリック可能な要素を探す
+                    body = self.driver.find_element(By.TAG_NAME, 'body')
+                    ActionChains(self.driver).move_to_element(body).click().perform()
+                    self.driver.switch_to.default_content()
+                except:
+                    # iframe切り替えに失敗した場合は、iframe要素自体をクリック
+                    self.driver.switch_to.default_content()
+                    ActionChains(self.driver).move_to_element(element).click().perform()
+            else:
+                # 通常の要素またはiframe内の要素をクリック
+                # 要素まで自然にスクロール
+                self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element)
+                time.sleep(random.uniform(1, 2))
+
+                # 要素が見える状態かチェック
+                if not element.is_displayed():
+                    logger.warning(f"要素が見えません: {text}")
+                    if link_type in ['iframe_link', 'iframe_image']:
+                        self.driver.switch_to.default_content()
+                    return False
+
+                # 自然なマウス動作でクリック
+                try:
+                    ActionChains(self.driver).move_to_element(element).pause(0.5).click().perform()
+                except ElementClickInterceptedException:
+                    # JavaScriptでクリック
+                    self.driver.execute_script("arguments[0].click();", element)
+
+            # iframe内の要素をクリックした後は必ずメインフレームに戻る
+            if link_type in ['iframe_link', 'iframe_image']:
+                self.driver.switch_to.default_content()
+
             # クリック済みリストに追加
             self.clicked_links.add(href)
-            
+
             # クリック後の待機（ページ遷移やポップアップを待つ）
             time.sleep(2)
-            
+
             # 新しいタブが開いた場合の処理
             if len(self.driver.window_handles) > 1:
                 # 新しいタブを閉じて元のタブに戻る
@@ -225,12 +387,17 @@ class AdClicker:
                 self.driver.close()
                 self.driver.switch_to.window(self.driver.window_handles[0])
                 logger.info("新しいタブを閉じました")
-            
+
             logger.info(f"クリック成功: {text}")
             return True
             
         except Exception as e:
             logger.error(f"クリックエラー: {e}")
+            # エラーが発生してもメインフレームに戻る
+            try:
+                self.driver.switch_to.default_content()
+            except:
+                pass
             return False
     
     def random_delay(self):

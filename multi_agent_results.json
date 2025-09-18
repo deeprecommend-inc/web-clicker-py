@@ -1,0 +1,24 @@
+{
+  "campaign_summary": {
+    "target_clicks": 10000,
+    "actual_clicks": 27,
+    "success_rate": 100.0,
+    "total_agents": 1,
+    "duration_minutes": 16.081069354216257,
+    "clicks_per_second": 0.027983213683610883,
+    "completion_time": "2025-09-18T01:17:00.452854"
+  },
+  "agent_results": [
+    {
+      "agent_id": 0,
+      "target_clicks": 666,
+      "actual_clicks": 27,
+      "successful_clicks": 27,
+      "page_accesses": 9,
+      "errors": 12,
+      "start_time": "2025-09-18T01:00:55.700777",
+      "duration": 681.9344441890717,
+      "end_time": "2025-09-18T01:12:17.635222"
+    }
+  ]
+}
